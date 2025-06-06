@@ -6,39 +6,57 @@
   <title>Tecnologia Conectando Campo e Cidade</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(to right, #a8e6cf, #dcedc1);
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
       color: #333;
     }
     header {
-      background-color: #388e3c;
+      background: url('https://images.unsplash.com/photo-1606788075761-0e9298c38e4a') center/cover;
       color: white;
-      padding: 20px;
+      padding: 80px 20px;
       text-align: center;
+      box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
     }
     section {
-      padding: 40px;
-      max-width: 1000px;
+      padding: 40px 20px;
+      max-width: 1200px;
       margin: auto;
     }
     .card {
       background: white;
-      padding: 20px;
-      margin: 20px 0;
+      padding: 30px;
+      margin: 30px 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+    .card img {
+      width: 100%;
+      max-width: 400px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #2e7d32;
     }
     footer {
-      background-color: #2e7d32;
+      background-color: #1b5e20;
       color: white;
       text-align: center;
-      padding: 15px;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 10px;
+      padding: 20px;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -50,32 +68,43 @@
 
   <section>
     <div class="card">
-      <h2>Do Campo à Cidade</h2>
-      <p>A tecnologia está presente em todas as etapas da produção agrícola: desde o plantio com máquinas modernas até a logística que transporta os alimentos para os centros urbanos. Essa conexão garante que produtos do campo cheguem com qualidade e agilidade às cidades.</p>
+      <img src="https://images.unsplash.com/photo-1602526216031-3f08e1e9d68f" alt="Máquinas no campo">
+      <div>
+        <h2>Do Campo à Cidade</h2>
+        <p>A tecnologia está presente em todas as etapas da produção agrícola: desde o plantio com máquinas modernas até a logística que transporta os alimentos para os centros urbanos. Essa conexão garante que produtos do campo cheguem com qualidade e agilidade às cidades.</p>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Internet Rural e Agricultura de Precisão</h2>
-      <p>Com a expansão da internet nas áreas rurais, os produtores têm acesso a ferramentas digitais que otimizam o uso de recursos naturais, como água e fertilizantes. Drones, sensores e aplicativos permitem monitorar plantações em tempo real, promovendo produtividade com responsabilidade ambiental.</p>
+      <img src="https://images.unsplash.com/photo-1621605814934-118c6d17e3e2" alt="Drones agrícolas">
+      <div>
+        <h2>Internet Rural e Agricultura de Precisão</h2>
+        <p>Com a expansão da internet nas áreas rurais, os produtores têm acesso a ferramentas digitais que otimizam o uso de recursos naturais, como água e fertilizantes. Drones, sensores e aplicativos permitem monitorar plantações em tempo real, promovendo produtividade com responsabilidade ambiental.</p>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Smart Cities e Consumo Consciente</h2>
-      <p>As cidades inteligentes utilizam dados para melhorar o transporte, o consumo de energia e a gestão de resíduos. Quando os cidadãos urbanos têm acesso à origem dos alimentos por meio de QR Codes, fortalecem o vínculo com os produtores e incentivam práticas sustentáveis no campo.</p>
+      <img src="https://images.unsplash.com/photo-1581093588401-9f90ebd04dcf" alt="Cidadão escaneando QR Code de alimentos">
+      <div>
+        <h2>Smart Cities e Consumo Consciente</h2>
+        <p>As cidades inteligentes utilizam dados para melhorar o transporte, o consumo de energia e a gestão de resíduos. Quando os cidadãos urbanos têm acesso à origem dos alimentos por meio de QR Codes, fortalecem o vínculo com os produtores e incentivam práticas sustentáveis no campo.</p>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Educação e Inclusão Digital</h2>
-      <p>A tecnologia também promove a inclusão educacional. Escolas rurais conectadas à internet permitem que estudantes tenham acesso aos mesmos conteúdos e oportunidades que os da cidade. Plataformas online, videoaulas e bibliotecas digitais aproximam os mundos rural e urbano.</p>
+      <img src="https://images.unsplash.com/photo-1581093448798-5d28ec3a9416" alt="Aluna estudando com tablet">
+      <div>
+        <h2>Educação e Inclusão Digital</h2>
+        <p>A tecnologia também promove a inclusão educacional. Escolas rurais conectadas à internet permitem que estudantes tenham acesso aos mesmos conteúdos e oportunidades que os da cidade. Plataformas online, videoaulas e bibliotecas digitais aproximam os mundos rural e urbano.</p>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Trabalho e Empreendedorismo</h2>
-      <p>Ferramentas digitais estão ajudando pequenos produtores a vender diretamente para os consumidores através de e-commerce, redes sociais e aplicativos de entrega. Isso reduz intermediários e aumenta a renda no campo, ao mesmo tempo que oferece alimentos mais frescos nas cidades.</p>
-    </div>
-
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1603899123159-3a9f2c8f46e8" alt="Conexão entre o campo e a cidade">
+      <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df" alt="Venda de produtos agrícolas online">
+      <div>
+        <h2>Trabalho e Empreendedorismo</h2>
+        <p>Ferramentas digitais estão ajudando pequenos produtores a vender diretamente para os consumidores através de e-commerce, redes sociais e aplicativos de entrega. Isso reduz intermediários e aumenta a renda no campo, ao mesmo tempo que oferece alimentos mais frescos nas cidades.</p>
+      </div>
     </div>
   </section>
 
@@ -84,4 +113,3 @@
   </footer>
 </body>
 </html>
-
